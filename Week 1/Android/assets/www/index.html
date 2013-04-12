@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!--
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<!-- Brandon McGhee -->
+<!-- AVF Week 1 -->
+<html lang="en">
+    
+    <head>
+        <title>AVF1304 Demo Application - Brandon McGhee</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta name="description" content="Spirit Tracker" />
+        <meta http-equiv="content-type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="css/main.css" />
+        <link rel="stylesheet" type="text/css" href="css/jquery.mobile-1.2.0.min.css" />
+    </head>
+    
+    <body>
+        <!-- Begin Home Page -->
+        <section data-role="page" id="home">
+            <header data-role="header" id="headerBG" data-position="fixed">
+                <img src="img/mini2.png" class="mini" />
+            </header>
+            <img src="img/booze.jpg" class="banner" />
+            <section data-role="content" id="cta" data-theme="a">
+                <h1>AVF1304 - Brandon McGhee</h1>
+                <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
+                    <li>
+                        <img src="img/app_icons/accel.png" alt="Recipes" />
+                        <h1>Recipes</h1>
+                        <p>List of all recipes, also you can shake your device to mix them up.</p>
+                    </li>
+                    <li>
+                        <img src="img/app_icons/cam_icon.png" />
+                            <h1>Barcode Scanner</h1>
+                            <p>Use the Barcode Scanner to automatically add a Spirit to your Inventory.</p>
+                    </li>
+                    <li id="net">
+                            <h1>Internet</h1>
+                        	<p>Use network to search internet for best prices</p>
+                    </li> 
+                    <li data-role="list-divider">Research</li>
+                    <li><a href="#week1">Week One: Industry Research and Project Intent</a></li>
+                    <li>Week Two</li>
+                    <li>Week Three</li>
+                    <li data-role="list-divider">JSON APIS</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Google +</li>
+                </ul>
+
+                </section>
+        </section>
+        
+        <!-- End Home Page -->
+        
+        <!-- Begin Week 1 Page -->
+        <section data-role="page" id="week1" data-theme="a">
+            <header data-role="header" data-theme="e" data-position="fixed">
+                <a href="#" data-role="button" data-rel="back" data-theme="a" data-icon="arrow-l">Back</a>
+                <img src="img/mini2.png" class="mini" />
+            </header>
+            <section data-role="content" id="cta">
+                <ul data-role="listview" data-theme="d" data-divider-theme="a" data-inset="true">
+                    <li data-role="list-divider">Competing Applications</li>
+                    <li>
+                        <img src="img/app_icons/corkz.png" />
+                        Corkz Wine Info - by Applied Ambiguities, LLC
+                        <br />
+                        <br />
+                        S: Low Cost, Simple Interface, Wine Reviews
+                        <br />
+                        W: Not Cross Platform, Can not manually add items
+                        <br />
+                        O: Pushing into Android/Blackberry/Windows
+                        <br />
+                        T: Already has a market share where my application does not, Has been positively reviewed by Wine websites
+                        
+                    </li>
+                    <li>
+                        <img src="img/app_icons/cadent.jpg" />
+                        Cadent wineCellar - by Cadent Computing Inc.
+                        <br />
+                        <br />
+                        S: Low Cost, Pre-loaded Wine List with multiple categories, Cloud syncing
+                        <br />
+                        W: Non aesthitic interface, iPhone version is most advanced, Not Cross Platform
+                        <br />
+                        O: Pushing into Android/Blackberry/Windows, Social Media Sharing
+                        <br />
+                        T: Already has a market share where my application does not
+                        
+                    </li>
+                    <li>
+                        <img src="img/app_icons/yourwinesHD.jpg" />
+                        Your Wines HD - by El Nudo Molesto
+                        <br />
+                        <br />
+                        S: Low Cost, More of a Journal than database (appealing to people not familiar with databases)
+                        <br />
+                        W: Not Cross Platform
+                        <br />
+                        O: Pushing into Android/Blackberry/Windows, Social Media, Possible Market sponsorship with Wineries
+                        <br />
+                        T: Already has a market share where my application does not, Considered one of the best wine applications out there
+                        
+                    </li>
+                </ul>
+            </section>
+        </section>
+        <!-- End Week 1 Page -->
+        
+        <script src="js/jquery-1.8.2.min.js"></script>
+        <script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <script src="js/main.js"></script>
+        <script type="text/javascript" src="cordova-2.5.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="cordova-2.5.0.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>

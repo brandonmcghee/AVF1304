@@ -1,0 +1,70 @@
+body {
+    color:#FFFFFF;
+    background-color:#000000;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif !important;
+    
+}
+
+img.mini {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+img.icon {
+    display:block;
+    height:30px;
+    width:30px;
+}
+
+#headerBG {
+  /* fallback */
+  background-color: #FFCC33;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#FFFF66), to(#FFCC33));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #FFFF66, #FFCC33);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #FFFF66, #FFCC33);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #FFFF66, #FFCC33);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #FFFF66, #FFCC33);
+  
+  height:55px;
+}
+
+#home {
+  /* fallback */
+  background-color: #FFCC33;
+  
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#303030), to(#202020));
+  
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #303030, #202020);
+  
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #303030, #202020);
+  
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #303030, #202020);
+  
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #303030, #202020);
+}
+
+img.banner {
+    width:100%;
+    padding:0px;
+    margin:0px;
+    overflow:hidden;
+
+}
+
+
